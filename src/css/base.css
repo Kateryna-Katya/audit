@@ -1,13 +1,11 @@
 body{
   background: #f5fafb;
-  /* background: #5c81a1; */
   font-family: "Inter", sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
     color: #f5fafb;
-    /* color: #081119; */
 }
 h2{
   font-family: "Inter", sans-serif;
@@ -15,6 +13,7 @@ h2{
     font-size: 12px;
     line-height: 1.5;
     color: #19334a;
+    text-align: left;
 }
 h3{
   font-family: "DM Serif Display", sans-serif;
@@ -22,5 +21,4 @@ h3{
     font-size: 32px;
     line-height: 1.5;
     color: #081119;
-    /* color: #f5fafb; */
 }

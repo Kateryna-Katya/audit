@@ -1,0 +1,87 @@
+/* Home */
+.home-section{
+    background-image: url("/img/hero/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom 130px center;
+    background-size: 100% 353px;
+    height: 812px;
+}
+.home-title{
+    margin-top: 40px;
+    font-family: "DM Serif Display", sans-serif;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 1.5;
+        color: #081119;
+}
+.home-text{
+    margin-top: 40px;
+    color: #081119;
+}
+.home-link{
+    margin-top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2e5d86;
+        border-radius: 8px;
+        width: 280px;
+        height: 48px;
+        box-shadow: 1px 2px 2px 0 rgba(25, 51, 74, 0.5);
+            background: #19334a;
+            font-weight: 500;
+            transition: all 0.3s ease;
+}
+.home-link:hover{
+        background: #2e5d86;
+        border: 1px solid #19334a;
+}
+@media only screen and (min-width: 1439px) {
+  .home-section{
+    background-image: url("/img/hero/desk.png");
+    background-size: cover;
+    background-position: top center;
+    height: 773px;
+  }
+  .home-title{
+    margin-top: 160px;
+    font-size: 64px;
+    text-align: left;
+  }
+  .home-text{
+    margin-top: 48px;
+    width: 519px;
+    text-align: left;
+  }
+  .home-link{
+    margin-top: 48px;
+    margin-left: 0;
+  }
+}
+/* What We Do */
+.what-section{
+    background: #5c81a1;
+}
+.what-subtitle{
+    margin-top: 40px;
+    color: #f5fafb;
+    text-align: left;
+}
+.what-text{
+    margin-top: 40px;
+    text-align: left;
+}
+@media only screen and (min-width: 1439px) {
+  .what-subtitle{
+    margin-top: 48px;
+    width: 411px;
+  }
+  .what-text{
+    width: 845px;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: -84px;
+  }
+}
