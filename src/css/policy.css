@@ -35,7 +35,9 @@ font-family: "DM Serif Display", sans-serif;
     margin-bottom: 40px;
     text-align: center;
 }
-
+.terms-title{
+    font-size: 39px;
+}
 
 .text-container {
     display: flex;
@@ -96,5 +98,7 @@ font-family: "Inter", sans-serif;
         list-style-type: disc;
         padding-left: 30px;
     }
-
+.privacy-title{
+    font-size: 48px;
+}
 }
