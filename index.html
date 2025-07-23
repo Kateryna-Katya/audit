@@ -14,32 +14,89 @@
           href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
           rel="stylesheet">
     <script type="module" crossorigin src="/audit/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/audit/assets/styles-BiGvHCWx.css">
+    <link rel="stylesheet" crossorigin href="/audit/assets/styles-BEVT7rQV.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-   
+    <header class="header" id="site-header">
+  <div class="header-container container">
+    <button type="button" class="menu-button" aria-label="menu toggle">
+      <span class="icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.5" y="0.5" width="23" height="23" rx="3.5" stroke="#19334A" />
+          <path d="M5.625 7.125H18.375M5.625 16.125H18.375M5.625 11.625H18.375" stroke="#081119" stroke-linecap="round" />
+        </svg>
+      </span>
+    </button>
+    <nav class="nav ">
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="links" href="index.html#Home">Welcome</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#What">What We Do</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Services">Services</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Case">Case Studies</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Why">Why Us</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#FAQ">FAQ</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+  <ul class="menu-list">
+    <li class="menu-item"><a class="menu-list-item" href="index.html#Home">Welcome</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="index.html#What">What We Do</a></li>
+    <li class="menu-item">
+      <a class="menu-list-item" href="index.html#Services">Services</a>
+    </li>
+    <li class="menu-item"><a class="menu-list-item" href="index.html#Case">Case Studies</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="index.html#Why">Why Us</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="index.html#FAQ">FAQ</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="index.html#Contact">Contact</a></li>
+  </ul>
+  <ul class="header-navigation">
+    <li class="header-link">
+      <a class="header-underline" href="./privacy.html">Privacy Policy</a>
+    </li>
+    <li class="header-link">
+      <a class="header-underline" href="./terms.html">Terms & Conditions</a>
+    </li>
 
+    <li class="header-link">
+      <a class="header-underline" href="./cookies.html">Cookies Policy</a>
+    </li>
+  </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
       <!-- Home -->
-<section class="home-section">
+<section class="home-section" id="Home">
     <div class="container">
         <h1 class="home-title">Plan Bold Events.<br/>
         Stay Legally Safe.</h1>
         <p class="home-text">We help event organizers navigate legal compliance, risk planning, and crisis protocols — so your event shines without
         setbacks.</p>
-        <a class="home-link" href="#">
+        <a class="home-link" href="#Contact">
             <p class="home-link-text">Book a Free Audit</p>
         </a>
     </div>
 </section>
 <!-- What We Do -->
-<section class="what-section">
+<section class="what-section" id="What">
     <div class="container">
         <h2 class="what-title">What We Do</h2>
         <h3 class="what-subtitle">Compliance + Risk Strategy for Event Professionals</h3>
@@ -49,7 +106,7 @@
     </div>
 </section>
 <!-- Services -->
-<section class="service-section">
+<section class="service-section" id="Services">
     <div class="container">
         <div class="title-wrapper"> 
              <h2 class="service-title">Services</h2>
@@ -84,7 +141,7 @@
     </div>
 </section>
 <!-- Case Studies -->
-<section class="case-section">
+<section class="case-section" id="Case">
     <div class="container">
         <div class="title-wrapper">
             <h2 class="case-title">Case Studies</h2>
@@ -111,7 +168,7 @@
     </div>
 </section>
 <!-- Why Choose Us -->
-<section class="why-section">
+<section class="why-section" id="Why">
     <div class="container">
         <h2 class="why-title">Why Choose Us</h2>
         <h3 class="why-subtitle">Why Event Organizers Trust EventCeza.pro</h3>
@@ -136,7 +193,7 @@
     </div>
 </section>
 <!-- FAQ -->
-<section class="faq-section">
+<section class="faq-section" id="FAQ">
     <div class="container">
             <div class="title-wrapper">
                 <h2 class="faq-title">FAQ</h2>
@@ -271,14 +328,74 @@
             </ul>
     </div>
 </section>
+<!-- Ready to Run a Legally Sound Event? -->
+<article class="ready-section">
+    <div class="container ready-wrapper">
+        <h2 class="ready-title">Ready to Run a Legally Sound Event?</h2>
+            <a class="home-link ready-link" href="#What">
+                <p class="ready-link-text">Request a Free Call</p>
+            </a>
+<p class="ready-text">Let's ensure your contracts, teams, and safety plans are bulletproof.</p>
+    </div>
+</article>
+<!-- Contact Us -->
+<section class="contact-section" id="Contact">
+    <div class="container contact-container">
+        <h2 class="contact-title">Contact Us</h2>
+        <div class="contact-wrapper">
+            <a class="email-link" href="mailto:info@eventceza.pro">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGsSURBVHgB7dg/T8JAHMbx3x1GVifnshPCSxBfh5q+A139kwAJ0beBhoFXIbo5EsLAZl2dcAT0zntGm2sP2rsDyX0GG6GS51sbDRAFQRAEwT/GdA82Lu7fSVJEu4RRMnm6qaUf5tqTd208ZGw6IBNVzvmiNe53E/KoGT9EQsiR6WJyypfgBYSojppxOyJPUuOTvHNzA5Yr1iLPEenxy9WilXd+bsBseJ34jNCNnw3zb13TLeQtosh4MAaA64ii42GtAHAVUWY8rB0AtiPKjoeNAsBWhI3xsHEAlI2wNR4KBUDRCJvjoXAAbBphezyUCoB1I1yMh9IBYIpwNR6sBEBWhMvxYC0AdBEux4PVAEhHuBwP1gPgT4TD8WB+R1YQItShRo45+Q34FAK2bW8D5vii/hEd0ZaZNmgDJMkxjuK7eklbJn6qMY5Syhfd89o/o1KKLmOVE/WhVqdx3vvilVVffbA1J49w5YU4vFJXs43vmWR93Xks6wXqZ702Z7xDO0BI0ZkO7rq65ypZP/Q5eX49rp9+qMQjxlhE/s3VbfNGjMXTwe0jBUEQBME++gWD87vFPyN/CgAAAABJRU5ErkJggg==" alt="Email" loading="lazy" width="24" height="24">
+                <p class="contact-text">info@eventceza.pro</p>
+            </a>
+            <div class="icons-wrapper">
+                <a class="icon-link" href="https://www.linkedin.com/">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAwCAYAAAC4wJK5AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJmSURBVHgB7ZnBbtpAEIZnFlR65BE4VwqFJyhv0PZaJZHzBHGOBVUVB8gx7ROQiqjKre4TlD5BaZGq3OpHsJRLjeudztKgxoANS4LXkfaTEPLuYO2vnZ2ZHQAsFouliOA6g4ZzWqMYBoTUAIIq5Awv0MNSeDI+7/oZNukoAVLSNxOLT0KBKE2baUJE5k9jOjMvQIHVOH40SJvNFgHwAgoCu0wjba4MW0BA54g4AimqgNLloRrsHEz1CG0RRPHLycUbb/7ccN5+4K3+hIAtMITQMVY7cFuAgg9bEEXiCAyiJQIlu9AKri5f+zzrgyG0RABSRqQiY1FMT4RAl8/A0mL3DnoOfz0QEQQ1dYhZSG0+VD/ouxypzsAg2tFJRSEZV349PTz1SbmQSoYERtkqTyiIqAYFQc+d7peAP/7N953QT3YAreVRdBDI+f8oXCI5TpqIKpL0eAvHhOheX4fffa87E/DkVa9RKonjxDs00BYxGba/Lo7V9/ut2/WwErBopyriOFbJsrOUGH9+7CjBR3v7/c+IoAo9rUiXozv9DibDTmZmn1y0PSLQzv65iVDlySZ2MyFAI9Bg6+i0LSoxChDPaHbRCd+vuuiwO3YRS60NX5lvdKof9t5xnhnQvwPsSln5sqoCKJf/jEGD3ETMFkt4nBjkCkBGleeLtpu63pwcd+Lxzmork8nu3rAiioIVURSsiKJgRRSFzK44NwEM356T/Bi2V6533U7c+eqYB2u64qRVTe4SdgkvbS5TxE2PtQi7wf3e8CRtMlOE6rFOI2zyldEDMwTcGhpNo7B5dZn+d5fFYrEUk796V+GX37g/gQAAAABJRU5ErkJggg==" alt="Linkedin" loading="lazy" width="24" height="24">
+                </a>
+                <a class="icon-link" href="https://x.com/">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAwCAYAAAC4wJK5AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQcSURBVHgB7ZixU9NQHMd/L4nA2EVRFzt6npTWSe/wrtXFTdw8D7D8BdZRKVd6CIzU0QkQRJiAyXNQYPKcrC3nsZkRdamegy3Ne/5+aRLTQGiSxjuGfO56ffn1Je0v7/ft9/0CEBEREREREXH6YV4mJUZmC4yx+ElzBGifK8v5EvgkMTqbY8AG/11H1CrLTx/7uAQoXiY1udhSZNjGYcx9lgQDI9NqdWVyEzwyMDqTxbd5/OFWTDS1e+AT2cukH9X3B/0DmTowduekebhady5cu7l+UN6tQQeS2ZkkCPbGHuOCT+2tTr4An0heJ1Ze5UtCwJJ5jHdvB5ed0Qvvo1FGLMZ5z0anayWzc3HOWds8PYGVfBEC4DkJQlbqOXxTaYx1nE6MzUzRuIo1TEnpkwRLYp3Pu12jlYDYxrsQN2MCeCloAoSvJMqLxVrjkGVwWDN+cOHqyHSahoeH0rgVB8glxqYfOs9PZgu4UnzDngAIUa4u530J2YmvJIj9tScq3nXrSyVJXsAfF6c4FzZRCqlEcfu5QutdoJWyhdRGs+FbyE58J0FUlycWLR3gXdW0ngUa7q1M7jj1QXefjqj08LNh22XUxmE9s79WVKFLPP07HcfFa0MfBSj0b3Ue9RHvH7wd+1Z59/Y7vs4N3kpTDBM5L4TS15+8dYNKz3Y6lmX9RhgJEJ7Mzo3L9+fiPWfEJzD8Q2A5kU8YcfKV+HHnkRdUX3v3k04EKicTXR8Cxs1jxiS7PsaPO4f+SsNMgAhcTiZYPvvnsJRwSa9jGn0C5PSF1M31ysvC/tlEhgwwbc7txgtOoquVMHH6BNd69fqnH2zF6cuYFIP/QChJEIZPqMah5RNH4qPPchAyXQnbCRmfxOTt1pGoSXIjhQapusUhJEJbCUJRmmWwXJt8onebfIL8g/TgjENIhJqE7sj27XrLCPV9VJs+MG7qJgxCSwIdueRwZB00vaypA1nWtxiq8VFo+gglCX03K9gjW6jW3tywwpUHM0naQLb7Bys491dB6DoJai8dWwrq04Z1Q+Pc2CiymKKwDVMf9ngY+ugqCb07w/bSHuNC5NA3dmnc1kjp+tA104rb9GHqJiiBk3Dvziae22PtjRQMH6cPu26CEMgn3Lozt+aG9KDIzHrQgLrIUFk5/aOpQebL6kQZfOJ779TqzuQPR7qzlbxrc+N80MAkCfdXQ1u4vypj/GcrzvokGR80pIaW8EHDH/CB73JqdWdtW2z11+9GptN5LR20N1JJ3LJLmrzZrT58JeHWnambxY6PaAhZrhexgPVyoQcN/Iz4Si8am3OC6MOzJgwvcHZnKb/dmbORcqOpiZRXfXh6Anj5fiEuNLiE671oBTnfCtJeUsM0MDI7jjq6e9I8SWL0uW+RR0RERERERJxW/gJOniQ76bYoEwAAAABJRU5ErkJggg==" alt="Twitter" loading="lazy" width="24" height="24">
+                </a>
+                <a class="icon-link" href="https://www.instagram.com/">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAwCAYAAAC4wJK5AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAU6SURBVHgB7Vk/b9tWEL8jnXiMOhRBp6hbEcSy2qlLUaro0DHdCsN/pE/geIstp5KRyF7trVvo+A/SKe7YobH8DWTZdTMyW1sUqApPlsx3vaNIipZJixIlFSj8AyQ9Pr574o937+7ePYBb3OIWQSAMiOzshsHSaUX0AIYBTWtoio5ru8tV6BN9kcjmN9LKpkWWygNBCkYBBAuJqqg312rmmhVPJCYyc+tPeHRpZA8fBqS1+qtiueewXgOy+VKK7MmXBPC465ZFit8YogVDAM+fRYQsN9Nd/Qe6flFgrTSiZCeg1+RdBIhVDYjlk52VIxgBpubWv+Q3a4JLhtuPbXtSmt9Gydyoicx8pQyEJe9akSqf7q6uwRjwaPZFSUOt3OlRS/Wd1c2wsXrUJLKIScEbf4oxEhD8WX979GEmx0pHw+36/KPPvvjx99rRNbPSoiYhG0qBS2scBKbmKvnM/PqCdy3/ScDm6wBTyp5cDJOLJoFk+G1glzpiCAEEfMl/ZmZmK/7DEqnAy6N8mGwoCSeQke8lrFEt4iCQ9Hv+BaFvMqe7z6p813JHpR7NPje6ZUO9kwKcdt4/ON81GADZ7zbScAcML6Lz2zrmhWXV9ouh89V3n25NzVT+QU2/V997uh28x96n6lmDRvqDWCSYhh/QkPojIWahgbagwDVH1/8p+dKRPd66xa1y/dXKdrfsyX7RDJuT3brl+1G8GkcEPeNEXDjezAaOKWSQq8VQtM3UFLK63izETS1uggZDgJNTKTok6DgDRoMIDvihy/Jx2tzn3eRFbCg1ecgZQRoSYiiaEA1AIF0gUJvn56016+BqqvAJr5OJCXvBD2KsFdu+K7I5SIDEmhCzCGrAVnb+ZGd1qZuA4N3rZcv1/QWvTzQSjA2DIDEJjqhX0pJf955t95I52SmavGr8FIIXbh4SIBGJbL6S7cQTalxetnoS8MCZqQQxR1uijU9nXgy8uUpEwr7EtNcmwOq71/E9jaTW4v/9uVAzYEAkIsEPMe23qf+gSEGZEP8fF0Nxsf81EpEgxPedtrMr6wsYkCGlDZTeCBKR0PWOTSO7WdnKxpV1IjyA4V3bYL+HAZGIRM1ctrry/VJcWaVUnn880tZZRGIYB8nXhA1Bt/okM/+8Z+CSABnc9nJ2WIYESExCMs+ONhikm7I3D8uJxNz43qaz+fGGc+GhvrcSO76EYSi5U6ulFe7eoUPw8id+y5zcLU7PrVc9NyqLWCkwuupWVuuyWYCEGIqLlZyo2cLcVY1Ayin1IJsKf5x2gIBooNm6yPUTIKMwtP2EEOGfHO/O8qg79p4OGycPj4TmyV4xkQkFEUpC/D+6GxtESkMfcHdn5sOZSlaf0B+gUu1YoInpqOpv+6t9u1Ixxc42i65lx+Ek6NJCbJekOCcyYAC4LlM+P0FCOIGUvDZec8WRFUAuIP8Nrh9XZOfaVYfxQyovCh2nIbDqOysfd4+5aWGbXgNRix3Ehg2lUccdBx1HAJEk2NtsQSDfd+qyY0a7FtxxEK1WM7QKGVmL/ev0l8b9qdwFq+Gbdg8a97Nf4R/Hb6swBoQVs8/2S6HrC3tNxqX2Nxg8m+CTHE1hYZBjqTiQNcALuRTct8sZBVchI0v7PeOEHHDI+YBPhNUrC02KYLIRIoKBE7cgeK+e5j+RimE62M9kzPPz5tKNshAT188LRo4GE+LjhOJWr4E6xIScF3zw8OttTccUtl3vqM7uGmw+P7RaF4Wz/e9/jiMQWxPdcI6lSMsG67aJwBGdTXMsFfhb3OL/jn8BV0hER2/IUqwAAAAASUVORK5CYII=" alt="Instagram" loading="lazy" width="24" height="24">
+                </a>
+            </div>
+            <div class="hash-wrapper">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAwCAYAAAC4wJK5AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ1SURBVHgB7ZlPbtNAFMbfc0uSZbiB1wi1vgE+gteolXIDWKJ00USIdFtOQKWgil3LCQg3CKmEWIYTUHaksT28sT2oCo41f57iVprfIm/hec77ZuaNPycAHo/H43ksRIPTPhhik3OfAJgRWe/q4Hginr18F+nndD/InOdHb2OwgF8EiKL4TuduqZ2DEMqY58EtWMAqIhqchRRoa4jb+cVYvyABhfDvlydzsIB3JdJyRoUA7WKiQbXtDHI2YRWRg3ghIyJqF5SlGMpIW2oJlrCKQCy3hciCmUFOKVwI7ZxNWEWoBs0g+6mbg4ClcIPV24S3JywaVJ1me3urb2AJmgyWD6U87b7acif5wHotTyaa1nPQBWFURFHFGhYfh2NoYB+M6PVp846ax2D/X2EmNOdwivhDs9wd1V4KIJHbSQBco+ZxKVDE1BMxbakZCpyBJUbbqYnD47MvVAwVBPHNdPhVL2dyReMTOs2Sm8s3n8EStsa2aVCb06wOFhGVC9253VDwrETaK8/6HdsNBYuIHPBQxl3bDQWLCMQ8lnHXdkPBIqItu6Hg6YmW7IbCWYRNg1qfZltwFmHVoBanWRNaT+yDo8nptms21oEER/TFCXX1HHK8rhsT7K/e666SnndqMGdYzYMUQh8xaN2uQlBzVy9S/425e3JBgVFEg03WsdI1OWTZC+t+Tnm1hYrO+jdo4mQAi/eLrPtLNuhievJUN0/+xiTjYjpkMaBujd2y3VA4iWjbbiicRLjZjQeyEm52A2bAhFtPONiN9Xrl9CJ0H2sRrnbjx6fxEpiwFpGmuSzIsEE7YZHD2A8shIn5HyQ2OR6Px+Nphb9oMhiPAGiF8gAAAABJRU5ErkJggg==" alt="Hashtag" loading="lazy" width="24" height="24">
+                <p class="contact-text">#EventRiskAudit #SafeEventsFirst</p>
+            </div>
+        </div>
+    </div>
+</section>
+
     </main>
 
     <footer class="footer">
-  <div class="container">
-   
+  <div class="container footer-container">
+    <h2 class="footer-title">Legal Risk Advisors<br/>
+    for Bold Event Organizers.</h2>
+    <ul class="footer-navigation">
+      <li class="footer-link">
+        <a class="footer-underline" href="./privacy.html">Privacy Policy</a>
+      </li>
+      <li class="footer-link">
+        <a class="footer-underline" href="./terms.html">Terms & Conditions</a>
+      </li>
+
+      <li class="footer-link">
+        <a class="footer-underline" href="./cookies.html">Cookies Policy</a>
+      </li>
+    </ul>
+    <p class="footer-text">© 2025 EventCeza.pro – All Rights Reserved.</p>
   </div>
 </footer>
-
+   <div id="cookie-popup" class="cookie-popup">
+    <div class="popup-wrapper">
+        <p class="cookie-class">We use cookies to improve your experience on our website. By browsing this website, you agree to our use of cookies.</p>
+        <div class="cookie-buttons">
+            <button id="decline-cookies" class="btn-decline">DECLINE COOKIES</button>
+            <button id="accept-cookies" class="btn-accept">ACCEPT COOKIES</button>
+        </div>
+    </div>
+</div>
 
   </body>
 </html>
