@@ -329,3 +329,87 @@ margin-top: 48px;
     width: 1014px;
 }
 }
+/* Ready to Run a Legally Sound Event? */
+.ready-section{
+    background: #5c81a1;
+}
+.ready-title{
+    font-family: "DM Serif Display", sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 1.5;
+        color: #f5fafb;
+}
+.ready-link{
+    margin-top: 40px;
+}
+.ready-text{
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: left;
+}
+@media only screen and (min-width: 1439px) {
+.ready-wrapper{
+    display: flex;
+    gap: 162px;
+    align-items: center;
+}
+  .ready-title{
+    width: 302px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .ready-link{
+    margin-top: 0;
+  }
+  .ready-text{
+    margin-top: 0;
+    width: 326px;
+  }
+}
+/* Contact Us */
+.contact-title{
+    font-family: "DM Serif Display", sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 1.5;
+        color: #081119;
+        text-align: center;
+}
+.contact-wrapper{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.email-link{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.contact-text{
+    color: #081119;
+}
+.icons-wrapper{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.hash-wrapper{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+@media only screen and (min-width: 1439px) {
+  .contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-wrapper{
+    flex-direction: row;
+    gap: 117px;
+  margin-top: 0;
+  }
+}
